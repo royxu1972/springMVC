@@ -51,7 +51,7 @@ public class StringUtil {
 	 * 
 	 * @param sCheck
 	 *            被检测的字符串
-	 * @return
+	 * @return ？？
 	 */
 	public final static boolean isInt(String sCheck) {
 		if (isEmpty(sCheck))
