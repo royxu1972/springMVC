@@ -1,0 +1,106 @@
+/*页面布局*/
+#quiz_formwrapper {
+	width: 80%;
+}
+legend span {
+	width: 80%;
+	font-size: 20px;
+	font-family: 隶书;
+}
+
+legend .legend_content
+{
+	color:black;
+	width:100%;
+	font-size:16px;
+	font-family:ArialUnicode;
+}
+
+#copyright fieldset  .legend_copyright span
+{
+	width:80%;
+	font-family:隶书;
+	font-weight:bold;
+	font-size:14px;
+}
+
+#copyright fieldset center .copyright_content{
+	font-size:13px;
+	font-family:Times New Roman;
+}
+
+#quiz_example{
+	font-size:14px;
+}
+
+#quiz_btn{
+	font-weight:bold;
+	font-size:17px;
+	height: 44px;
+}
+#enter
+{text-align:center;}
+
+#enter {
+	font-family:楷体 ;
+	font-size:18px;
+}
+
+#left_submit{
+	width:1079px;
+	height:44px;
+}
+#left_submit .submit_btn{
+	width:150px;
+	height:44px;
+	float:left;
+	margin-left:170px;
+	
+}
+
+#quiz_btn{
+	text-align:right;
+}
+
+#left_submit .exit_btn{
+	width:230px;
+	height:44px;
+	padding:1px 10px;
+	border: 1px #1E7ACE solid;
+	background: #CDF;
+	margin-left:600px;
+}
+
+#right_exit{
+	width:300px;
+	height:40px;
+	float:left;
+}
+#right_exit .exit_btn{
+	width:200px;
+	height:40px;
+	padding:1px 10px;
+	font-size:14px;
+	border:1px #1E7ACE solid;
+	background:#CCDDFF;
+	margin-right:150px;
+	text-align:center;
+	
+}
+
+fieldset .quiz_input {
+	font-family:楷体;
+	font-weight:bold;
+	font-size:17px;
+	color:blue;
+	border-style: none;
+	border-bottom: #000000 1px solid;
+}
+#legend_gongchang span{
+	position:relative;
+	left:42%;
+}
+#legend_yisheng span{
+	position:relative;
+	left:42%;
+}

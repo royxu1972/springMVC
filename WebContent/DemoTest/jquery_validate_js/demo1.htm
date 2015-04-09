@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://jquery.bassistance.de/validate/demo/ -->
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>jQuery validation plug-in - main demo</title>
+
+<script src="./js/jquery.js">
+</script><script src="./js/jquery-1.9.0.js"></script>
+<script src="./js/jquery.validate.js"></script>
+
+<script>
+$.validator.setDefaults({
+	submitHandler: function() { alert("submitted!"); }
+});
+
+$().ready(function() {
+	// validate the comment form when it is submitted
+	$("#commentForm").validate();
+
+	// validate signup form on keyup and submit
+	$("#signupForm").validate({
+		rules: {
+			firstname: "required",
+			lastname: "required",
+			username: {
+				required: true,
+				minlength: 2
+			},
+			password: {
+				required: true,
+				minlength: 5
+			},
+			confirm_password: {
+				required: true,
+				minlength: 5,
+				equalTo: "#password"
+			},
+			email: {
+				required: true,
+				email: true
+			},
+			topic: {
+				required: "#newsletter:checked",
+				minlength: 2
+			},
+			agree: "required"
+		},
+		messages: {
+			firstname: "Please enter your firstname",
+			lastname: "Please enter your lastname",
+			username: {
+				required: "Please enter a username",
+				minlength: "Your username must consist of at least 2 characters"
+			},
+			password: {
+				required: "Please provide a password",
+				minlength: "Your password must be at least 5 characters long"
+			},
+			confirm_password: {
+				required: "Please provide a password",
+				minlength: "Your password must be at least 5 characters long",
+				equalTo: "Please enter the same password as above"
+			},
+			email: "Please enter a valid email address",
+			agree: "Please accept our policy"
+		}
+	});
+
+	// propose username by combining first- and lastname
+	$("#username").focus(function() {
+		var firstname = $("#firstname").val();
+		var lastname = $("#lastname").val();
+		if(firstname && lastname && !this.value) {
+			this.value = firstname + "." + lastname;
+		}
+	});
+
+	//code to hide topic selection, disable for demo
+	var newsletter = $("#newsletter");
+	// newsletter topics are optional, hide at first
+	var inital = newsletter.is(":checked");
+	var topics = $("#newsletter_topics")[inital ? "removeClass" : "addClass"]("gray");
+	var topicInputs = topics.find("input").attr("disabled", !inital);
+	// show when newsletter is checked
+	newsletter.click(function() {
+		topics[this.checked ? "removeClass" : "addClass"]("gray");
+		topicInputs.attr("disabled", !this.checked);
+	});
+});
+</script>
+
+<style type="text/css">
+#commentForm { width: 500px; }
+#commentForm label { width: 250px; }
+#commentForm label.error, #commentForm input.submit { margin-left: 253px; }
+#signupForm { width: 670px; }
+#signupForm label.error {
+	margin-left: 10px;
+	width: auto;
+	display: inline;
+}
+#newsletter_topics label.error {
+	display: none;
+	margin-left: 103px;
+}
+</style>
+<style type="text/css">#yddContainer{display:block;font-family:Microsoft YaHei;position:relative;width:100%;height:100%;top:-4px;left:-4px;font-size:12px;border:1px solid}#yddTop{display:block;height:22px}#yddTopBorderlr{display:block;position:static;height:17px;padding:2px 28px;line-height:17px;font-size:12px;color:#5079bb;font-weight:bold;border-style:none solid;border-width:1px}#yddTopBorderlr .ydd-sp{position:absolute;top:2px;height:0;overflow:hidden}.ydd-icon{left:5px;width:17px;padding:0px 0px 0px 0px;padding-top:17px;background-position:-16px -44px}.ydd-close{right:5px;width:16px;padding-top:16px;background-position:left -44px}#yddKeyTitle{float:left;text-decoration:none}#yddMiddle{display:block;margin-bottom:10px}.ydd-tabs{display:block;margin:5px 0;padding:0 5px;height:18px;border-bottom:1px solid}.ydd-tab{display:block;float:left;height:18px;margin:0 5px -1px 0;padding:0 4px;line-height:18px;border:1px solid;border-bottom:none}.ydd-trans-container{display:block;line-height:160%}.ydd-trans-container a{text-decoration:none;}#yddBottom{position:absolute;bottom:0;left:0;width:100%;height:22px;line-height:22px;overflow:hidden;background-position:left -22px}.ydd-padding010{padding:0 10px}#yddWrapper{color:#252525;z-index:10001;background:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);}#yddContainer{background:#fff;border-color:#4b7598}#yddTopBorderlr{border-color:#f0f8fc}#yddWrapper .ydd-sp{background-image:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)}#yddWrapper a,#yddWrapper a:hover,#yddWrapper a:visited{color:#50799b}#yddWrapper .ydd-tabs{color:#959595}.ydd-tabs,.ydd-tab{background:#fff;border-color:#d5e7f3}#yddBottom{color:#363636}#yddWrapper{min-width:250px;max-width:400px;}</style></head>
+<body style="zoom: 1; ">
+
+
+<div id="main">
+
+
+
+<form class="cmxform" id="commentForm" method="get" action="" novalidate="novalidate">
+	<fieldset>
+		<legend>Please provide your name, email address (won't be published) and a comment</legend>
+		<p>
+			<label for="cname">Name (required, at least 2 characters)</label>
+			<input id="cname" name="name" minlength="2" type="text" required="" class="valid"><label for="cname" class="error" style="display: none; ">Please enter at least 2 characters.</label>
+		</p><p>
+			<label for="cemail">E-Mail (required)</label>
+			<input id="cemail" type="email" name="email" required="" class="error"><label for="cemail" class="error" style="">Please enter a valid email address.</label>
+		</p>
+		<p>
+			<label for="curl">URL (optional)</label>
+			<input id="curl" type="url" name="url" class="error"><label for="curl" class="error" style="">Please enter a valid URL.</label>
+		</p>
+		<p>
+			<label for="ccomment">Your comment (required)</label>
+			<textarea id="ccomment" name="comment" required="" class="error"></textarea><label for="ccomment" class="error" style="">This field is required.</label>
+		</p>
+		<p>
+			<input class="submit" type="submit" value="Submit">
+		</p>
+	</fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</body></html>

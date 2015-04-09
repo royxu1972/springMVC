@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed4ee137-49c4-4a20-8585-393df53580d4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/accordion_collapse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/accordion_collapse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/accordion_expand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/accordion_expand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/advsearch.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/antlr-2.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/aopalliance-1.0.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/aspectjrt-1.6.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/aspectjweaver-1.6.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/button_a_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/button_a_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/button_plain_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/button_plain_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/button_span_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/button_span_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/calendar_nextmonth.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/calendar_nextmonth.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/calendar_nextyear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/calendar_nextyear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/calendar_prevmonth.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/calendar_prevmonth.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/calendar_prevyear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/calendar_prevyear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/cglib-2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/checked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/collegeSelectorBG.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/combo_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/combo_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-collections-3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-fileupload.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-io-1.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-logging.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/datagrid_header_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/datagrid_header_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/datagrid_row_collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/datagrid_row_collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/datagrid_row_expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/datagrid_row_expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/datagrid_sort_asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/datagrid_sort_asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/datagrid_sort_desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/datagrid_sort_desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/datagrid_title_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/datagrid_title_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/edit_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/edit_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/ejb3-persistence-3.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/images/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/images/error3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/form1/images/error_20100904.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/exist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/filesave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/grant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/hibernate3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-all-1.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-core-asl-1.6.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-mapper-asl-1.6.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/javassist-3.12.0.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jodconverter-2.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jodconverter-cli-2.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/json-lib-2.4-jdk15.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/json_simple-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jta-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/layout_button_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/layout_button_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/layout_button_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/layout_button_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/layout_button_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/layout_button_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/layout_button_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/layout_button_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/log4j-1.2.16.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mail.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/menu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/menu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/menu_downarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/menu_downarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/menu_rightarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/menu_rightarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/menu_sep.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/menu_sep.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/menu_split_downarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/menu_split_downarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/messager_error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/messager_error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/messager_info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/messager_info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/messager_question.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/messager_question.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/messager_warning.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/messager_warning.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/mini_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/mini_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/mini_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/form1/images/ok_20100904.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/images/onFocus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.aop-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.asm-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.aspects-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.beans-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.context-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.context.support-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.core-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.expression-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.instrument-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.jdbc-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.jms-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.orm-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.oxm-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.transaction-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.web-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/org.springframework.web.servlet-3.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/pagination_first.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/pagination_first.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/pagination_last.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/pagination_last.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/pagination_load.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/pagination_load.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/pagination_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/pagination_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/pagination_next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/pagination_next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/pagination_prev.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/pagination_prev.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/panel_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/panel_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/panel_title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/panel_title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/panel_tool_collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/panel_tool_collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/panel_tool_expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/panel_tool_expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/panel_tools.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/panel_tools.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/poi-3.10-FINAL-20140208.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/reload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/rsp-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/slf4j-api-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/spinner_arrow_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/spinner_arrow_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/spinner_arrow_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/spinner_arrow_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-security-config-3.1.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-security-core-3.1.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-security-taglibs-3.1.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-security-web-3.1.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/images/succes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/images/succes3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/sum.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tabs_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tabs_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tabs_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tabs_enabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tabs_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tabs_leftarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tabs_leftarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tabs_rightarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tabs_rightarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/poshytip/src/tip-yellow/tip-yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/poshytip/src/tip-yellow/tip-yellow_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/form2/index_files/tip-yellowsimple_arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/poshytip/src/tip-yellowsimple/tip-yellowsimple_arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tip-yellowsimple_arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tree_arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tree_arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tree_checkbox_0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tree_checkbox_0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tree_checkbox_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tree_checkbox_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tree_checkbox_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tree_checkbox_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tree_dnd_no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tree_dnd_no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tree_dnd_yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tree_dnd_yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tree_elbow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tree_elbow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tree_file.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tree_file.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tree_folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tree_folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tree_folder_open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tree_folder_open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/tree_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/tree_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/unchecked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icons/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/validatebox_pointer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/validatebox_pointer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/core/BaseDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/model/Grade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/web/GradeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/dao/GradeDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/service/GradeService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/NewFile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/model/Quiz.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/web/QuizController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/dao/QuizDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/service/QuizService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/model/School.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/model/Speciality.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/web/SpecialityController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/dao/SpecialityDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/service/SpecialityService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/util/StringUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/web/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/dao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/model/UserEN.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/web/UserENController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/dao/UserENDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/service/UserENService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvc/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/applicationContext-security.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/autoMail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/college_info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/css/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/default-portal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/demo1.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/demo2_inControls.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/demo2_inJS.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/demo3.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/demo4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/easyloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/locale/easyui-lang-zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/extend/easyui_ext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/include/euInc.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/fileType.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/global.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hibernate.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/form2/index.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/form1/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/poshytip/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/form2/index_files/jq.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/js/jquery-1.4.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/js/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/poshytip/src/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/js/jquery-1.9.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.combo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.combogrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.datebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/jquery.easyui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.linkbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.menubutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/js/jquery.metadata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/form2/index_files/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.numberbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.numberspinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.pagination.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/form2/index_files/jquery.poshytip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/poshytip/src/jquery.poshytip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/jquery.poshytip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.progressbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.propertygrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.searchbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.splitbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.timespinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/js/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/js/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.validatebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/plugins/jquery.window.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsTest4Select.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jsTest4Select.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/left.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin_en/left.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/licence.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/listScore.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin_en/listScore.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/listScore_en.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/listUserSelect.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin_en/listUserSelect.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/listUserSelect_en.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/listUsers.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/listUsers.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin_en/listUsers.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/listUsers_en.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/log.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/log_fail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/log_success.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin_en/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/manage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/manager.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin_en/manager.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/manager.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin_en/manager.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/message_cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/message_en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/portal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/quiz.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/quiz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/quiz.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/quiz_en.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/quiz_en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/quiz_en.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/reg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/reg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/reg.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/reg_demo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/reg_en.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/reg_en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/reg_en.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/reg_fail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/reg_success.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/register.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/jquery_validate_js/js/register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/form2/index_files/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/rule.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/score.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin_en/score.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/admin/scorelist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/admin_en/scorelist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/admin/scorelist_en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/selectCollege.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/selectCollege.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/admin/selectedlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/admin_en/selectedlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/admin/selectedlist_en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/spring-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springMVC.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/style_validation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/submitquiz_fail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/submitquiz_success.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/poshytip/src/tip-yellow/tip-yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/form2/index_files/tip-yellowsimple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/DemoTest/poshytip/src/tip-yellowsimple/tip-yellowsimple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tip-yellowsimple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin/top.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/jsp/admin_en/top.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/user.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/admin_en/userENlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/admin/userlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/admin/userlist_en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/tpl/default/userlogin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/js/validate-ex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/validation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/default/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/easyui/themes/gray/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="springMVC.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="springMVC" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="springMVC.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springMVC.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GradeDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mvc/dao/GradeDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15725806">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2870" />
+    <option name="y" value="3" />
+    <option name="width" value="1456" />
+    <option name="height" value="886" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed4ee137-49c4-4a20-8585-393df53580d4" name="Default" comment="" />
+      <created>1428544867853</created>
+      <option name="number" value="Default" />
+      <updated>1428544867853</updated>
+      <workItem from="1428544870878" duration="1598000" />
+      <workItem from="1428546805789" duration="630000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2228000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2870" y="3" width="1456" height="886" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springMVC.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mvc/dao/GradeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springMVC.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mvc/dao/GradeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15725806">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

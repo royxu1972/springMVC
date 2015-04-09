@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://jquery.bassistance.de/validate/demo/ -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>jQuery validation plug-in - main demo</title>
+
+<script src="./js/jquery.js">
+	
+</script>
+<script src="./js/jquery-1.9.0.js"></script>
+<script src="./js/jquery.validate.js"></script>
+
+
+
+<script>
+	$().ready(function() {
+		$("#signupForm").validate();
+	});
+</script>
+<body>
+
+	<form id="signupForm" method="get" action="">
+		<p>
+			<label for="firstname">Firstname</label> <input id="firstname"
+				name="firstname" class="required" />
+		</p>
+		<p>
+			<label for="email">E-Mail</label> <input id="email" name="email"
+				class="required email" />
+		</p>
+		<p>
+			<label for="password">Password</label> <input id="password"
+				name="password" type="password" class="{required:true,minlength:5}" />
+		</p>
+		<p>
+			<label for="confirm_password">确认密码</label> <input
+				id="confirm_password" name="confirm_password" type="password"
+				class="{required:true,minlength:5,equalTo:'#password'}" />
+		</p>
+		<p>
+			<input class="submit" type="submit" value="Submit" />
+		</p>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+/*页面布局*/
+#quiz_formwrapper {
+	width: 80%;
+}
+legend span {
+	width: 80%;
+	font-size: 20px;
+	font-family: 隶书;
+}
+
+legend .legend_content
+{
+	width:100%;
+	font-size:18px;
+	font-family:隶书;
+}
+
+#legend_copyright span
+{
+	width:80%;
+	font-family:隶书;
+	font-weight:bold;
+	font-size:14px;
+}
+
+#copyright_content{
+	font-size:13px;
+	font-family:Times New Roman;
+}
+
+#quiz_example{
+	font-size:14px;
+}
+
+fieldset .quiz_input {
+	font-family:楷体;
+	font-weight:bold;
+	font-size:17px;
+	color:blue;
+	border-style: none;
+	border-bottom: #000000 1px solid;
+}
+#legend_gongchang span{
+	position:relative;
+	left:42%;
+}
+#legend_yisheng span{
+	position:relative;
+	left:42%;
+}

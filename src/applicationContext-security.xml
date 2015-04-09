@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
+xmlns="http://www.springframework.org/schema/security"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+http://www.springframework.org/schema/security
+http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+<http auto-config="true" use-expressions="false">
+<intercept-url pattern="/reg.jsp" access="ROLE_GUEST" />
+<intercept-url pattern="/admin/*" access="ROLE_TEST" />
+<anonymous username="guest"  granted-authority="ROLE_GUEST" />  
+</http>
+<user-service id="userService1">
+<user name="habuma" password="letmein"
+authorities="ROLE_SPITTER,ROLE_ADMIN,ROLE_TEST"/>
+<user name="twoqubed" password="longhorns"
+authorities="ROLE_SPITTER"/>
+<user name="admin" password="admin"
+authorities="ROLE_ADMIN"/>
+</user-service>
+<authentication-manager>
+<authentication-provider user-service-ref="userService1" />
+</authentication-manager>
+</beans:beans>

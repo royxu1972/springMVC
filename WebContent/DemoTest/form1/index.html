@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0093)http://www.17sucai.com/preview/11/2013-05-01/js%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/demo.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>js表单验证插件、邮箱验证、中文汉字验证、手机号码验证、数字验证等</title>
+<meta name="description" content="js表单验证插件支持多种内容表单验证，有js邮箱地址验证、js中文汉字验证、js手机号码验证、js数字验证等。内含js代码下载。">
+<style type="text/css">
+*{margin:0;padding:0;list-style-type:none;font-size:12px;}
+a,img{border:0;}
+/* formbox */
+.formbox{width:650px;margin:0 auto;}
+.formbox li{height:40px;}
+.formbox li label{line-height:32px;width:80px;float:left;text-align:right;}
+.formbox li input.text{float:left;height:16px;font-size:12px;padding:2px;margin:3px 0 0 0;width:200px;}
+.formbox li .btnimg{height:24px;background:#ff6600;border:0;width:80px;cursor:pointer;font-size:12px;font-weight:800;color:#fff;}
+/*必要元素*/
+.wrong{width:200px;height:20px;line-height:20px;padding-left:30px;background:url(images/error_20100904.gif) no-repeat;position:absolute;font-size:12px;}
+.right{width:100px;height:20px;position:absolute;background:url(images/ok_20100904.gif) no-repeat;}
+</style>
+<body>
+<form method="post" action="">
+	<ul class="formbox">
+		<li>
+			<label>邮箱地址：</label><input type="text" name="email" class="text">
+		</li>
+		<li>
+			<label>不能为空：</label><input type="text" name="address" class="text">
+		</li>
+		
+		<li>
+			<label>年龄：</label><input type="text" name="jsfoot" class="text">
+		</li>
+		<li>
+			<label>真实姓名：</label><input type="text" name="trueName" class="text">
+		</li>
+		
+		<li>
+			<label>任意可选项：</label><input type="text" name="buildType" class="text">
+		</li>
+		<li>
+			<label>手机号码：</label><input type="text" name="PhoneCall" class="text">
+		</li>
+		<li>
+			<label>&nbsp;</label><input type="submit" class="btnimg" value="提交">
+		</li>
+	</ul>
+</form>
+<script type="text/javascript">
+// 调用示例
+var checkobj={
+	mail:"email",         //验证邮箱格式
+	phone:"PhoneCall",    //验证手机号码
+	num:"jsfoot",         //验证数字格式
+	chinese:"trueName",   //验证中文汉字
+	address:"address"     //验证空值
+}
+XformCheck(document.forms[0],checkobj);
+/*
+descript : XformCheck;
+author   : popper.w
+date     : 2008-6-22
+@pram xfromElement 需要检测的form对象
+@pram checkobj 设置需要检测的项
+默认有mail（邮件地址）、phone（手机或固定电话）、num（数字）、chinese（汉字）、empty（是否为空）、length（长度）、url（url地址合法）等检测
+//例如：如果某一项name为"xxx"需要检测email格式，则给checkobj中添加{mail:"xxx"}，如果仅仅是检测是否为空，则直接添加{xxx,"xxx"}即可*/
+function XformCheck(xfromElement,checkobj){
+	var om={};
+	if(checkobj){
+		om=checkobj
+	}
+	if(!xfromElement){
+		return false;
+	}
+		for(var o in checkobj){
+			xfromElement[checkobj[o]].onblur=function(e){
+				e=window.event||e;
+				var eSrc=e.srcElement||e.target;
+				var Xvalue=trim(this.value);
+				
+				if(isEmpty(Xvalue)){
+					ShowMes(eSrc,"此项不能为空","wrong");
+				}else{
+					switch(this.name){
+						case om.mail:
+					if(!isEmail(Xvalue)){
+						ShowMes(eSrc,"邮箱地址不正确","wrong");
+					}else{
+						ShowMes(eSrc,"","right");
+				}
+				break;
+				
+				case om.phone:
+				if(!isPhone(Xvalue)){
+					ShowMes(eSrc,"电话号码格式不正确","wrong");
+				}else{
+					ShowMes(eSrc,"","right");
+				}
+				break;
+	
+				case om.num :
+				if(!isNum(Xvalue)){
+					ShowMes(eSrc,"只能是数字","wrong");
+				}else{
+					ShowMes(eSrc,"","right");
+				}
+				break;
+	
+				case om.chinese :
+				if(!isChinese(Xvalue)){
+					ShowMes(eSrc,"必须为汉字","wrong");
+				}else{
+					ShowMes(eSrc,"","right")
+				}
+				break;
+	
+				case om.url :
+				if(!isUrl(Xvalue)){
+					ShowMes(eSrc,"url地址不正确","wrong");
+				}else{
+					ShowMes(eSrc,"","right");
+				}
+				break;
+	
+				case om.length :
+				if(!isProperLen(Xvalue)){
+					ShowMes(eSrc,"长度不正确不正确","wrong");
+				}else{
+					ShowMes(eSrc,"","right");
+				}
+				break;
+	
+				default :
+					ShowMes(eSrc,"","right")
+			}
+		}
+	}
+}
+
+/*判断为空*/
+function isEmpty(o){
+	return o==""?true:false;
+}
+/*判断是否为合适长度 6-32 位*/
+function isProperLen(o){
+	var len=o.replace(/[^\x00-\xff]/g,"11").length;
+	if(len>32||len<6){
+		return false;
+	}else{
+		return true;
+	}
+}
+/*判断是否为Email*/
+function isEmail(o){
+	var reg=/^\w+\@[a-zA-Z0-9]+\.[a-zA-Z]{2,4}$/i;
+	return reg.test(o);
+}
+/*判断url是否正确*/
+function isUrl(o){
+	var reg=/^(http\:\/\/)?(\w+\.)+\w{2,3}((\/\w+)+(\w+\.\w+)?)?$/;
+	return reg.test(o);
+}
+/*判断是否为电话号码 可以是手机或 固定电话*/
+function isPhone(v){
+	var reg=/((15[89])\d{8})|((13)\d{9})|(0[1-9]{2,3}\-?[1-9]{6,7})/i;
+	if(reg.test(v)){
+		return true;
+	}else{
+		return false;
+	}
+}
+function isNum(o){
+	var reg=/[^\d]+/;
+	return reg.test(o)?false:true;
+}
+function isChinese(o){
+	var reg=/^[\u4E00-\u9FA5]+$/;
+	return reg.test(o);
+}
+/*去除空白字符*/
+function trim(str){
+	return str.replace(/(^\s*)|(\s*$)/g, "");
+}
+function ShowMes(o,mes,type){
+	if(!o.ele){
+		var Xmes=document.createElement("div");
+		document.body.appendChild(Xmes);
+		o.ele=Xmes;
+	}
+	o.ele.className=type;
+	o.ele.style.display="block";
+	o.ele.style.left=(XgetPosition(o).x+220)+"px";
+	o.ele.style.top=XgetPosition(o).y+"px";
+	o.ele.innerHTML=mes;
+	}
+}
+function XgetPosition(e){
+	var left = 0;
+	var top  = 0;
+	while(e.offsetParent){
+		left += e.offsetLeft;
+		top  += e.offsetTop;
+		e= e.offsetParent;
+	}
+	left += e.offsetLeft;
+	top  += e.offsetTop;
+	return {
+		x:left, y:top
+	};
+}
+</script>
+
+</body></html>

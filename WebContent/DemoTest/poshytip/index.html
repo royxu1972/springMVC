@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="表单,jquery" />
+<meta name="description" content="Helloweba演示平台，演示XHTML、CSS、jquery、PHP案例和示例" />
+<title>jQuery信息提示工具</title>
+<link rel="stylesheet" type="text/css" href="../css/main.css" />
+<link rel="stylesheet" href="src/tip-yellow/tip-yellow.css" type="text/css" />
+<link rel="stylesheet" href="src/tip-yellowsimple/tip-yellowsimple.css" type="text/css" />
+<style type="text/css">
+.demo{width:500px; margin:60px auto}
+input{height:22px; line-height:22px; padding:2px; border:1px solid #ccc}
+</style>
+<script type="text/javascript" src="src/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="src/jquery.poshytip.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#tip1").poshytip({allowTipHover:true});
+	$('#user1').poshytip({
+		className: 'tip-yellowsimple',
+		showOn: 'focus',
+		alignTo: 'target',
+		alignX: 'right',
+		alignY: 'center',
+		offsetX: 5
+	});
+		/*
+		//远端调用js实现代码
+			$('#remote').poshytip({
+				alignY: 'bottom',
+				content: function(updateCallback) {
+					$.get('ajax.php?id=1',function(msg){
+						updateCallback(msg);
+					});
+					return 'Loading...';
+				}
+			});
+			*/
+});
+</script>
+</head>
+
+<body>
+<input id="user1" type="text" size="30" title="请输入用户名" />
+<div id="header">
+   <div id="logo"><h1><a href="http://www.helloweba.com" title="返回helloweba首页">helloweba</a></h1></div>
+</div>
+
+<div id="main">
+  <h2 class="top_title"><a href="http://www.helloweba.com/view-blog-123.html">jQuery信息提示工具</a></h2>
+  <div class="demo">
+    <p>1、<a id="tip1" title="嗨。。这里有个工具提示条！" href="#">鼠标滑上这里看看</a></p>
+    <br/>
+    <p>2、用户名：<br/><input id="user" type="text" size="30" title="请输入用户名" /></p>
+    <br/>
+    <p>3、远程调用:<br/>
+       <a id="remote" href="#">鼠标滑向这里加载图片</a>
+    </p>
+  </div>
+  <br/><br/><br/><br/><br/><br/><br/><br/>
+</div>
+<div id="footer">
+    <p>Powered by helloweba.com  允许转载、修改和使用本站的DEMO，但请注明出处：<a href="http://www.helloweba.com">www.helloweba.com</a></p>
+</div>
+<p id="stat"><script type="text/javascript" src="http://js.tongji.linezing.com/1870888/tongji.js"></script></p>
+</body>
+</html>

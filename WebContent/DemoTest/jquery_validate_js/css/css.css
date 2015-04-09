@@ -1,0 +1,12 @@
+
+/* CSS Document */
+
+label.error
+{
+	 padding-left:12px;
+	 background: url(../images/error.png) no-repeat;
+	 color:Red;
+	  }
+label.checked{background: url(../images/succes.png) no-repeat;}
+
+input.error{background-color:#FBE2E2}
